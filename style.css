@@ -1,0 +1,64 @@
+body {
+    font-family: verdana, 'Times New Roman', Times, serif;
+    background-color: #f3f3f3;
+    font-size: 16px;
+    color: #000;
+    width: 100%;
+    padding-top: 15px;
+}
+
+.title {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.25rem;
+}
+
+.recipe-list {
+    list-style: none;
+    font-size: 24px;
+    line-height: 1.8;
+    text-transform: capitalize;
+}
+
+.recipe-list a:link {
+    text-decoration: none;
+    color: #000;
+}
+
+.recipe-list a:hover {
+    color: red;
+}
+
+.nav:link {
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    margin-left: 5vh;
+    line-height: 2;
+}
+
+.banner {
+    width: auto;
+    height: 500px;
+    display: block;
+    margin-top: 5vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5vh;
+}
+
+.ingredients, .steps, .layer {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 24px;
+    word-spacing: 0.3rem;
+    letter-spacing: 0.25rem;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
+
+li {
+    font-size: 18px;
+}
