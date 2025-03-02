@@ -5,50 +5,82 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lasagna</title>
     <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <nav>
+    <nav>
+        <div class="nav-links">
             <a href="../index.html"><img src="../img/logo.svg" alt="The Odin Project LOGO"></a>
             <h3><a href="../index.html" class="home">HOME</a></h3>
-        </nav>
-    </header>
-    <div class="recipe-page-content">
-        <h1 class="title">Lasagna</h1>
-        <img class="banner" src="https://www.allrecipes.com/thmb/iOfxQGOJTdM0K6edW-MFkn-nydE=/0x512/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/23600-worlds-best-lasagna-DDMFS-4x3-1196-24c5401652934ffb96d3d94bc9fbe2d7.jpg" alt="lasagna dish">
-        <p>When John Chandler submitted this lasagna recipe to Allrecipes more than 20 years ago, he had no idea how successful it would become. One of our top-performing recipes of all time, World's Best Lasagna racks up more than 7 million views per year and has ranked among the most popular lasagna recipes on the internet for two decades. Unfortunately, John unexpectedly passed away at 53 years old — read all about his life and legacy here.</p>
-        <h2 class="ingredients">Ingredients</h2>
-        <ul class="ingredient-list">
-            <li>Meat</li>
-            <li>An onion</li>
-            <li>Two gloves of garlic</li>
-            <li>Can of crushed tomatoes</li>
-            <li>two tablespoon of white sugar</li>
-            <li>Fresh parsley, dried basil leaves, salt, Italian seasoning, fennel seeds and black pepper</li>
-            <li>Lasagna noodles</li>
-            <li>Cheese</li>
-            <li>Egg</li>
-        </ul>
-        <h2 class="steps">Steps</h2>
-        <ol class="step-list">
-            <li>Make the meat sauce</li>
-            <li>Cook the noodles</li>
-            <li>Make the ricotta mixture</li>
-            <li>Layer the lasagna according to the recipe instructions</li>
-            <li>Cover with foil and bake</li>
-            <li>Let the lasagna rest before serving</li>
-        </ol>
-        <h2 class="layer">How to Layer Lasagna</h2>
-        <ol class="layer-list">
-            <li>Meat sauce</li>
-            <li>Noodles</li>
-            <li>Ricotta mixture</li>
-            <li>Mozzarella slices</li>
-            <li>Meat sauce</li>
-            <li>Parmesan cheese</li>
-            <li>Repeat the layers, then top with the remaining Parmesan.</li>
-        </ol>
-    </div>
+        </div>
+    </nav>
+    <main>
+        <header>
+            <div class="title-review">
+                <h1 class="title">Worlds Best Lasagna</h1>
+                <div class="review">
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                    <span class="fa fa-star checked"></span>
+                </div>
+            </div>
+            <section class="img-section">
+                <img src="../img/lasagna" alt="the perfect basic burger" class="recipe-page-img">
+                <p>When John Chandler submitted this lasagna recipe to Allrecipes more than 20 years ago, he had no idea how successful it would become. One of our top-performing recipes of all time, World's Best Lasagna racks up more than 7 million views per year and has ranked among the most popular lasagna recipes on the internet for two decades. Unfortunately, John unexpectedly passed away at 53 years old — read all about his life and legacy here.</p>
+            </section>
+        </header>
+        <section class="recipe-page">
+            <div class="col-ingredient">
+                <div class="meta-info">
+                    <div class="portion">
+                        <i class="fa fa-cutlery"></i>
+                        <p>12 servings</p>
+                    </div>
+                    <div class="time">
+                        <i class="fa fa-clock-o"></i>
+                        <p>3 hours 15 minutes</p>
+                    </div>
+
+                </div>
+                <h2 class="subtitle">Ingredients</h2>
+                <ul class="ingredient-list">
+                    <li>Meat</li>
+                    <li>An onion</li>
+                    <li>Two gloves of garlic</li>
+                    <li>Can of crushed tomatoes</li>
+                    <li>two tablespoon of white sugar</li>
+                    <li>Fresh parsley, dried basil leaves, salt, Italian seasoning, fennel seeds and black pepper</li>
+                    <li>Lasagna noodles</li>
+                    <li>Cheese</li>
+                    <li>Egg</li>
+                </ul>
+            </div>
+            <div class="col-direction">
+                <h2 class="subtitle">Directions</h2>
+                <ol class="direction-list">
+                     <li>Make the meat sauce</li>
+                    <li>Cook the noodles</li>
+                    <li>Make the ricotta mixture</li>
+                    <li>Layer the lasagna according to the recipe instructions</li>
+                    <li>Cover with foil and bake</li>
+                    <li>Let the lasagna rest before serving</li>
+                </ol>
+                <h2 class="subtitle">How to Layer Lasagna</h2>
+                <ol>
+                    <li>Meat sauce</li>
+                    <li>Noodles</li>
+                    <li>Ricotta mixture</li>
+                    <li>Mozzarella slices</li>
+                    <li>Meat sauce</li>
+                    <li>Parmesan cheese</li>
+                    <li>Repeat the layers, then top with the remaining Parmesan.</li>
+                </ol>
+            </div>
+        </section>
+    </main>
     <footer>
         <div class="footer">
             <h3>Copyright &copy; The Odin Project 2025</h3>
